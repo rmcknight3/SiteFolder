@@ -1,0 +1,85 @@
+/*Body Styling*/
+body {
+	background-color: #ffffb9;
+}
+
+/*Titles Styling*/
+header {
+	font-size: 4.5em;
+}
+
+/*Navigaition Styling*/
+.navigation {
+	font-size: 1.2em;
+}
+
+table {
+	border: solid 1px red; /*Just to show the outer border of the table*/
+	width: 100%;
+	background-color: lightblue;
+}
+
+.navigation ul {
+	list-style-type: none;
+	border: solid 1px black; /*Just to show the inner border of the list/menu */
+	float: right;
+	margin: 1px;
+}
+
+.navigation li {
+	display: inline;	
+}
+
+.navigation a {
+	padding: 0 30px; /*Added padding around the link to fill its parent element*/
+}
+
+/*Contact Info*/
+.contact {
+	border: solid 1px green;
+	list-style: none;
+}
+
+/*Link Styling*/
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*Gallery*/
+.gallerypics img{
+	border: solid red 1px;
+	margin: .5%;
+	max-height: 100px;
+	min-height: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
