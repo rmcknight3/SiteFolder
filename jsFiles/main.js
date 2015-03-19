@@ -34,7 +34,7 @@ $overlay.click(function(){
   $(this).hide();
 });
 
-//?????  why not "e.keyUp" instead of 'e.which'?
+//uses escape key as a way to close overlay
 $(document).keyup(function(e){
 	if (e.which == 27){
 		$("#overlay").hide();
