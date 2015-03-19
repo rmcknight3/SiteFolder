@@ -22,8 +22,6 @@ header {
 
 }
 
-
-
 #main_welcome_message {
 	background-color: red;
 	width: 75%;
@@ -103,10 +101,14 @@ a {
 #price_list{
 	background-color: red;
 	width: 50%;
-	margin: auto auto auto 10%;
+	margin-left: auto auto auto auto;
 	padding: 20px ;
 }
 
+/**/
+/*Change alignment of price table for smaller screens*/
+/*margin-left: -30px;*/
+/**/
 
 /*Picture Gallery Overlay Settings*/
 #overlay {
