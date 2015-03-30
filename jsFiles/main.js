@@ -1,6 +1,6 @@
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
-var $caption = $("<p></p>");
+var $caption = $("<p class='imgCaption'></p>");
 
 
 //Adds (appends) $overlay variable to the document with the '$image' var that will be placed within the <div> tags
@@ -45,17 +45,19 @@ $(document).keyup(function(e){
 });
 
 // '.hover()' to change background color of navigation links on mouse hover
-$("li a").hover(
+$(".navigation a").hover(
 	function(){
 		//change to this color when mouse enters element
-    	$(this).css("background-color", "white");
+      // $(this).css("border", "solid #000000 1px")
+      $(this).css("background-color", "#8bafFF");
+      $(this).css("color", "#000000");
     }, 
     function(){
     	//change back when mouse leaves element
-    	$(this).css("background-color", "#fa0000");
+      // $(this).css("border", "none")
+      $(this).css("background-color", "#FFc34e");
+      $(this).css("color", "#000000");
 }); 
-
-
 
 
 
