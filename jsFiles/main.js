@@ -1,6 +1,7 @@
-var $overlay = $('<div id="overlay"></div>');
-var $image = $("<img>");
-var $caption = $("<p class='imgCaption'></p>");
+// Variables for image gallery
+  var $overlay = $('<div id="overlay"></div>');
+  var $image = $("<img>");
+  var $caption = $("<p class='imgCaption'></p>");
 
 
 //Adds (appends) $overlay variable to the document with the '$image' var that will be placed within the <div> tags
@@ -21,7 +22,6 @@ $("#imageGallery a").click(function(event){
   //Show the overlay
   $overlay.show();
   //code here
-
 
   //Get child alt attribute for the caption text
   var captionText = $(this).children("img").attr("alt");
@@ -57,7 +57,7 @@ $(".navigation a").hover(
       // $(this).css("border", "none")
       $(this).css("background-color", "#FFc34e");
       $(this).css("color", "#000000");
-}); 
+});
 
 
 

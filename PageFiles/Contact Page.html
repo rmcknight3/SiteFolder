@@ -20,14 +20,43 @@ Custom Sewing
 
 <h1 class="subtitle">Contact Page</h1>
 
-<p>Interested?  Feel free to contact us.</p>
+<p class="blurb">Interested?  Feel free to contact us.</p>
 
 <div class="contactInfo">
 <ul>
 	<li>555-555-5555</li>
-	<li>mail@domain.com</li>
 	<li>twitter</li>
 	<li>facebook</li>
+
+	<li>
+		<!-- Opens users mail client to send email -->
+		<!-- <li> <a href="mailto:mail@domain.com">mail@domain.com</a> </li> -->
+		<form action="Contact Page.html" method="post" id="mainForm">
+			<fielset class="contact_fieldset">
+				<legend>Send E-Mail</legend>
+				<!-- Name -->
+				<div class="formElement">
+					<label for="name" class="labels">Your Name:</label><br>
+					<input type="text" id="name" name"user_name"> <br>
+				</div>
+
+				<!-- E-mail -->
+				<div class="formElement">
+					<label for="email" class="labels">E-mail Address:</label><br>
+					<input type="email" id="email" name"user_email"> <br>
+				</div>
+
+				<!-- Message -->
+				<div class="formElement">
+					<label for="message" class="labels">Message:</label><br>
+					<textarea id="message" name="user_message"></textarea>
+				</div>
+			</fieldset>
+			<br>
+			<button type="reset" id="clearButton" class="formButtons">CLEAR</button>
+			<button type="submit" id="sendButton" class="formButtons">SEND</button>
+		</form>
+	</li>
 </ul>
 </div>
 
